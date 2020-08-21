@@ -1,17 +1,17 @@
 import React from 'react';
 import '../css/todoList.css';
+import Todo from './Todo';
 
-function TodoList() {
+const TodoList = ({myString, myArray}) => {
   return (
     <React.Fragment>
       <header className="App-header">
-
         <h1> Todo List </h1>
-        <button className="btn btn-success"> test </button>
-
+        <h2>{myString}</h2>
+        <h4>{myArray.map((indexdata) => <Todo task={indexdata} />) }</h4>
+        <Todo/>
       </header>
     </React.Fragment>
   );
 }
-
 export default TodoList;
