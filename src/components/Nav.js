@@ -9,11 +9,9 @@ function Nav() {
   return (
     <React.Fragment>
       <ul className = "list-inline myNavBar" style={{ marginBottom: 0, display: 'flex'}}>
-
       <Link to ="/">
           <li className = "list-inline-item " style={{marginLeft: 10, marginBottom: 0, listStyle:'none'}}> <FaHouseDamage/> Accueil </li>
       </Link>
-
       <Link to ="/Login">
         <li className = "list-inline-item " style={{marginLeft: 10, listStyle:'none'}}> <IoMdLogIn/> Login </li>
       </Link>
