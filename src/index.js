@@ -5,6 +5,7 @@ import Accueil from './components/Accueil';
 import Login from './components/Login';
 import Nav from './components/Nav'
 import Add from './components/Add'
+import Heroes from './components/Heroes'
 import CompletedTask from './components/CompletedTask'
 import Contact from './components/Contact'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
@@ -26,6 +27,7 @@ ReactDOM.render(
       <Route path = "/Contact" component={Contact}/>
       <Route path = "/Add" component={Add}/>
       <Route path = "/CompletedTask" component={CompletedTask}/>
+      <Route path = "/Heroes" component= {Heroes}/>
       </Switch>
     </Router>
 

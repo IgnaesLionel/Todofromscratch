@@ -20,6 +20,9 @@ function Nav() {
       </Link>
       <Link to ="/Contact">
         <li className = "list-inline-item" style={{marginLeft: 10, listStyle:'none'}}> <GrContact/> Contact </li>
+        <Link to ="/Heroes">
+        <li className = "list-inline-item" style={{marginLeft: 10, listStyle:'none'}}> <GrContact/> Heroes </li>
+        </Link>
       </Link>
       </ul>
     </React.Fragment>
